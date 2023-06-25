@@ -1,6 +1,6 @@
 import itertools
 import pyrage
-from pyrage import passphase
+from pyrage import passphrase
 from multiprocessing import Pool
 with open("secret.age", 'rb') as f:        
     bFileText = f.read()
